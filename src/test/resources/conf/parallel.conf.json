@@ -1,0 +1,25 @@
+
+  "server": "hub-cloud.browserstack.com",
+  "user": "mudassarsyed2",
+  "key": "8ZezGR6GyZjP2ZqrXphh",
+
+  "capabilities": {
+    "name": "Bstack-[TestNG] Parallel Test",
+    "browserstack.debug": true
+  },
+
+  "environments": {
+    "chrome": {
+      "browser": "chrome"
+    },
+    "firefox": {
+      "browser": "firefox"
+    },
+    "safari": {
+      "browser": "safari"
+    },
+    "ie": {
+      "browser": "internet explorer"
+    }
+  }
+}

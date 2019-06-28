@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel" thread-count="4" parallel="tests">
+ <test name="chrometest">
+<parameter name="curentbrowser" value="chrome" />
+<parameter name="version" value="71" />
+<parameter name="platform" value="Windows" />
+<classes>
+<class name="com.browserstack.BrowserStackTestNGTest" />
+</classes>
+</test>
+<test name="firefoxtest">
+<parameter name="curentbrowser" value="firefox" />
+<parameter name="version" value="61" />
+<parameter name="platform" value="MAC" />
+<classes>
+<class name="com.browserstack.BrowserStackTestNGTest" />
+</classes>
+</test>
+<test name="ietest">
+<parameter name="curentbrowser" value="IE" />
+<parameter name="version" value="8" />
+<parameter name="platform" value="Windows" />
+<classes>
+<class name="com.browserstack.BrowserStackTestNGTest" />
+</classes>
+</test>
+<test name="safaritest">
+<parameter name="curentbrowser" value="Safari" />
+<parameter name="version" value="12.0" />
+<parameter name="platform" value="OS X" />
+<classes>
+<class name="com.browserstack.BrowserStackTestNGTest" />
+</classes>
+</test>
+</suite>
