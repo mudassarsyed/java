@@ -1,36 +1,16 @@
 # Cucumber-browserstack
 
-Documentation for running [Cucumber](http://https://cucumber.io/) Integration with BrowserStack.
+Documentation for running [Cucumber](https://cucumber.io/) Integration with BrowserStack.
 
 ![BrowserStack Logo](https://d98b8t1nnulk5.cloudfront.net/production/images/layout/logo-header.png?1469004780)
 
-## Setup
+## Getting Started
 
-* Clone the repo
-* Install dependencies `mvn compile`
-* Update `*.conf.json` files inside the `src/test/resources/conf` directory with your [BrowserStack Username and Access Key](https://www.browserstack.com/accounts/settings)
+`Note: Refer our sample repo on Github: `[cucumber-browserstack](http://www.google.com)
 
-## Running your tests
+BrowserStack supports Selenium automated tests using Cucumber, and running your tests on our cloud setup is simple and straightforward. Get started with a sample test, which opens Google's homepage, searches for ‘BrowserStack’, and asserts for the title of the search results page. For the code to run successfully on your machine, please ensure that the following libraries have been installed:
 
-- To run a single test, run `mvn test -P single`
-- To run local tests, run `mvn test -P local`
-- To run parallel tests, run `mvn test -P parallel`
-- To run the test suite, run `mvn test -P suite`
-
- Understand how many parallel sessions you need by using our [Parallel Test Calculator](https://www.browserstack.com/automate/parallel-calculator?ref=github)
-
-
-## Notes
-* You can view your test results on the [BrowserStack Automate dashboard](https://www.browserstack.com/automate)
-* To test on a different set of browsers, check out our [platform configurator](https://www.browserstack.com/automate/java#setting-os-and-browser)
-* You can export the environment variables for the Username and Access Key of your BrowserStack account
-
-  ```
-  export BROWSERSTACK_USERNAME=<browserstack-username> &&
-  export BROWSERSTACK_ACCESS_KEY=<browserstack-access-key>
-  ```
-## Additional Resources
-* [Documentation for writing Automate test scripts in Java](https://www.browserstack.com/automate/java)
-* [Customizing your tests on BrowserStack](https://www.browserstack.com/automate/capabilities)
-* [Browsers & mobile devices for selenium testing on BrowserStack](https://www.browserstack.com/list-of-browsers-and-platforms?product=automate)
-* [Using REST API to access information about your tests via the command-line interface](https://www.browserstack.com/automate/rest-api)
+```
+#Install using gem
+gem install cucumber
+```
