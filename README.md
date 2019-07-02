@@ -1,8 +1,6 @@
-# testng-browserstack
+# Cucumber-browserstack
 
-[TestNG](http://testng.org) Integration with BrowserStack.
-
-Master branch contains **Selenium 3** samples, for **Selenium 4 - W3C protocol** please checkout [selenium-4](https://github.com/browserstack/testng-browserstack/tree/selenium-4) branch
+Documentation for running [Cucumber](http://https://cucumber.io/) Integration with BrowserStack.
 
 ![BrowserStack Logo](https://d98b8t1nnulk5.cloudfront.net/production/images/layout/logo-header.png?1469004780)
 
