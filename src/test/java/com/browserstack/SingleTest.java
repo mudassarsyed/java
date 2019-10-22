@@ -30,8 +30,8 @@ public class SingleTest {
   public WebDriver driver;
   
 
-  public static final String USERNAME = "mudassarsyed2";
-  public static final String AUTOMATE_KEY = "8ZezGR6GyZjP2ZqrXphh";
+  public static final String USERNAME = "**************";
+  public static final String AUTOMATE_KEY = "***************";
   public static final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
 
 
